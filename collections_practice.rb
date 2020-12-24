@@ -28,12 +28,12 @@ end
 def kesha_maker(array)
   array.each do |item|
     item[2] = "$"
-  end
+  e= 1
 end
 
 def find_a(array)
   array.select do |item|
-    item.index('a') = 1
+    item.index('a') == 1
   end
   array
 end
