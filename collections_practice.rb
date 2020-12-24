@@ -33,6 +33,6 @@ end
 
 def find_a(array)
   array.select do |item|
-    item.index('a') == 1
+    item[0] == 'a'
   end
 end
