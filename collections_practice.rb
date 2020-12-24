@@ -36,11 +36,3 @@ def find_a(array)
     item.index('a') == 1
   end
 end
-
-def sum_array(array)
-  num = 0
-  array.each do |item|
-    num + item
-  end
-  num
-end
