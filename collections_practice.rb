@@ -35,4 +35,5 @@ def find_a(array)
   array.select do |item|
     item[0] = "a"
   end
+  array
 end
