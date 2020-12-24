@@ -29,3 +29,4 @@ def kesha_maker(array)
   array.map do |item|
     item[2] = "$"
   end
+end
