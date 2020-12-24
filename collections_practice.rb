@@ -41,4 +41,6 @@ def sum_array(array)
   num = 0
   array.each do |item|
     num + item
+  end
+  num
 end
